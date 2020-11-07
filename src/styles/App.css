@@ -5,7 +5,20 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@1,100&display=swap");
-
+.start {
+  float: right;
+  padding: 20px;
+  color: whilte;
+  background: blue;
+  border: none;
+  border-radius: 10px;
+}
+.heading-timer {
+  padding: 10px;
+  background: red;
+  border: none;
+  border-radius: 50%;
+}
 .ballProvider {
   font-family: "Fredoka One", cursive;
   background-color: #202124;
@@ -17,9 +30,7 @@
   width: 195px;
   margin: 15px;
   height: 60px;
-
 }
-
 
 .ball {
   background-color: black;
@@ -31,7 +42,6 @@
   width: 50px;
   border-radius: 25px;
 }
-
 
 .hole {
   background-color: rgb(62, 85, 107);
